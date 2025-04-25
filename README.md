@@ -2,8 +2,6 @@
 
 Hey there! This is my personal portfolio, built from scratch with just HTML, CSS, and a little JavaScript. It highlights my background in cybersecurity, digital forensics, and programming. I wanted something clean, professional, and actually mine — not just another template.
 
-## Live Site
-[Check it out here]((https://github.com/ValKyrieae/School-Portfolio))
 
 ## What’s on the Site
 - **Home** – Quick intro to who I am and what I do
