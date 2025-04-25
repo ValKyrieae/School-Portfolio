@@ -1,0 +1,92 @@
+import random  # importing the module so I can randomize name suggestions
+from US_dataset import data_us  # pulling in our dataset of baby names
+
+# I'm using a while loop here so the user can interact with the program multiple times
+while True:
+    # grabbing the first and third values from each tuple for boy and girl names
+    boy_names_us = [item[0] for item in data_us]
+    girl_names_us = [item[2] for item in data_us]
+
+    # asking the user if they want to know the top names
+    response = input("Would you like to know the most popular names in the United States? (yes/no): ")
+    while response.lower() not in ['yes', 'no']:
+        print("Please enter either 'yes' or 'no'.")
+        response = input("Would you like to know the most popular names in the United States? (yes/no): ")
+
+    if response.lower() == "yes":
+        # finding the most common name using max + count (this feels like magic but it works)
+        most_popular_boy_name_us = max(set(boy_names_us), key=boy_names_us.count)
+        most_popular_girl_name_us = max(set(girl_names_us), key=girl_names_us.count)
+        print(f"The most popular boy's name in the United States is: {most_popular_boy_name_us}")
+        print(f"The most popular girl's name in the United States is: {most_popular_girl_name_us}")
+
+        # asking if they want name suggestions
+        suggestion_response = input("Would you like suggestions for baby names? (yes/no): ")
+        while suggestion_response.lower() not in ['yes', 'no']:
+            print("Please enter either 'yes' or 'no'.")
+            suggestion_response = input("Would you like suggestions for baby names? (yes/no): ")
+
+        if suggestion_response.lower() == "yes":
+            # checking which gender they want names for
+            gender = input("What gender is your baby? Please input either girl, boy or IDK: ").lower()
+            while gender not in ['boy', 'girl', 'idk']:
+                print("Please enter 'boy', 'girl', or 'IDK'.")
+                gender = input("What gender is your baby? Please input either girl, boy or IDK: ").lower()
+
+            # giving them random names based on their input
+            if gender == "boy":
+                random_boy_names_us = random.sample(list(boy_names_us), 10)
+                print("10 random baby names for boys in the United States:")
+                print(', '.join(random_boy_names_us))
+            elif gender == "girl":
+                random_girl_names_us = random.sample(list(girl_names_us), 10)
+                print("10 random baby names for girls in the United States:")
+                print(', '.join(random_girl_names_us))
+            else:
+                random_boy_names_us = random.sample(list(boy_names_us), 5)
+                random_girl_names_us = random.sample(list(girl_names_us), 5)
+                print("5 random baby names for boys in the United States:")
+                print(', '.join(random_boy_names_us))
+                print("5 random baby names for girls in the United States:")
+                print(', '.join(random_girl_names_us))
+        else:
+            print("No problem! If you change your mind, feel free to ask.")
+    else:
+        # if they don’t want top names, ask if they just want suggestions
+        response = input("Would you like help naming your baby? (yes/no): ")
+        while response.lower() not in ['yes', 'no']:
+            print("Please enter either 'yes' or 'no'.")
+            response = input("Would you like help naming your baby? (yes/no): ")
+
+        if response.lower() == "yes":
+            gender = input("What gender is your baby? Please input either girl, boy or IDK: ").lower()
+            while gender not in ['boy', 'girl', 'idk']:
+                print("Please enter 'boy', 'girl', or 'IDK'.")
+                gender = input("What gender is your baby? Please input either girl, boy or IDK: ").lower()
+
+            if gender == "boy":
+                random_boy_names_us = random.sample(list(boy_names_us), 10)
+                print("10 random baby names for boys in the United States:")
+                print(', '.join(random_boy_names_us))
+            elif gender == "girl":
+                random_girl_names_us = random.sample(list(girl_names_us), 10)
+                print("10 random baby names for girls in the United States:")
+                print(', '.join(random_girl_names_us))
+            else:
+                random_boy_names_us = random.sample(list(boy_names_us), 5)
+                random_girl_names_us = random.sample(list(girl_names_us), 5)
+                print("5 random baby names for boys in the United States:")
+                print(', '.join(random_boy_names_us))
+                print("5 random baby names for girls in the United States:")
+                print(', '.join(random_girl_names_us))
+        else:
+            print("Thank you for stopping by! Many blessings to you and yours!")
+
+    # ask if they want to run the whole thing again
+    start_over = input("Would you like to start over? (yes/no): ")
+    while start_over.lower() not in ['yes', 'no']:
+        print("Please enter either 'yes' or 'no'.")
+        start_over = input("Would you like to start over? (yes/no): ")
+    if start_over.lower() != "yes":
+        print("Thank you and goodbye!")
+        break
