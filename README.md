@@ -24,13 +24,11 @@ An animated cube of classical sketches from my Java + web design class. Uses CSS
 
 ---
 
-### 🧑‍💻 Cisco Switch Interface Lab (Packet Tracer)
+### 🧑‍💻 Cisco Switch Interface Lab (Packet Tracer)  
 Assignment from my networking class where I configured switches, trunk links, and VLANs using Cisco Packet Tracer. It helped reinforce how devices connect and communicate — and how to troubleshoot when they don’t.  
-[View Lab Files](./Lab2SelfMade.pka.pkt) | [Read More Below](#cisco-packet-tracer-lab-switch-interface-configuration)
+[View Lab File](./Lab2SelfMade.pka.pkt) | [Read More Below](#-cisco-packet-tracer-lab--switch-interface-configuration)
 
 ---
-
-
 
 ## 🛠️ Tech I’ve Used
 
@@ -40,6 +38,8 @@ Assignment from my networking class where I configured switches, trunk links, an
 - GitHub Pages (for hosting)
 - Google Fonts + UI details
 - JavaScript (popup and interaction)
+- Cisco Packet Tracer (network simulation)
+- Networking concepts: VLANs, trunking, IP config
 
 ---
 
@@ -55,3 +55,32 @@ I didn’t want a portfolio that looked like everyone else’s — I wanted one 
 - Better responsive styling (mobile-friendly)
 - Charts + visuals for the baby name generator
 - Python practice: log parsers, scripts, and maybe a weather project 👀
+
+---
+
+## 🔌 Cisco Packet Tracer Lab – Switch Interface Configuration
+
+This was an assignment for my networking class where we used Cisco Packet Tracer to manually configure switch interfaces. The goal was to get more hands-on experience with how switches work, how to assign IPs, and how VLANs and trunking actually function in a real network.
+
+### 🖥️ What I set up
+- 3 Cisco 2960 switches (Switch0, Switch1, Switch2)
+- 4 endpoint devices (3 PCs and 1 laptop)
+- Each device had a static IP (192.168.1.1 to 192.168.1.4)
+- The switches were connected in layers, with trunk links between them
+
+### ⚙️ What I configured
+- Set interface speeds and duplex modes manually
+- Disabled auto-negotiation to practice manual config
+- Assigned all PCs and laptop to VLAN 1
+- Configured trunk ports between the switches (no negotiation protocol)
+- Used ping and switch CLI to verify everything was working
+
+### 🧠 What I learned
+- How access ports and trunk ports are different and when to use them
+- How misconfigured VLANs can break connectivity (and how to fix it)
+- That trunking doesn’t just magically happen — you actually have to tell the switch what you want
+- How to troubleshoot connection issues using port LEDs and `show` commands
+
+### 🖼️ Screenshot
+
+![Lab Screenshot](./4f659262-1fd8-4e7e-9d2
