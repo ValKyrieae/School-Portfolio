@@ -7,7 +7,7 @@ We used tuples to store the names because they don’t change, and we used the r
 
 It’s simple, but it actually taught me a lot — working with loops, conditionals, random, and handling real-ish data.
 
-Run it with: python baby_name_generator.py
+Run it with: python baby_name_gen.py
 """
 
 
