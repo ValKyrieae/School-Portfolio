@@ -1,3 +1,17 @@
+"""
+Baby Name Generator – Python Group Project
+
+Okay so this is one of the first real programs I wrote in Python, and it was a group project for my Applied Logic class. The whole idea was to help people explore baby names using real U.S. Social Security data. It asks if the user wants to see the most popular names, or get random suggestions based on gender — boy, girl, or if they don’t know yet.
+
+We used tuples to store the names because they don’t change, and we used the random module to generate a different list each time. There's input validation built in so it won’t crash if someone types something weird, and it loops so you can keep going until you’re done.
+
+It’s simple, but it actually taught me a lot — working with loops, conditionals, random, and handling real-ish data.
+
+Run it with: python baby_name_generator.py
+"""
+
+
+
 import random  # importing the module so I can randomize name suggestions
 from US_dataset import data_us  # pulling in our dataset of baby names
 
