@@ -1,5 +1,5 @@
 # US_dataset.py
-# baby name data – top 500 compressed into a small dataset for testing
+# baby name data for baby_name_gen.py – our original dataset used the top 500 baby names in use and was stored in tuples;; however, for ease of testing, we compressed it into a small dataset for testing
 
 data_us = [
     ("Liam", 19659, "Olivia", 17921),
