@@ -1,27 +1,49 @@
-# Kyrie Logins – My Portfolio Site
+# Kyrie Logins – School + Portfolio Projects
 
-Hey there! This is my personal portfolio, built from scratch with just HTML, CSS, and a little JavaScript. It highlights my background in cybersecurity, digital forensics, and programming. I wanted something clean, professional, and actually mine — not just another template.
+Hey there! This repo holds everything from my personal portfolio site to the projects I’ve done in Python, Java, HTML/CSS, and more. It’s where I keep the work I’ve built from scratch (no templates here), and where I can track my growth while learning new tools and trying new things.
 
+---
 
-## What’s on the Site
-- **Home** – Quick intro to who I am and what I do
-- **Projects** – Real work I’ve done, including my digital forensics capstone and some coding projects
-- **Resume** – My experience, education, and skills — plus a button to download the PDF
-- **Popup interaction** – Because why not ask if you're human?
+## 📁 Project Highlights
 
-## Tools & Tech I Used
-- HTML & CSS (no frameworks, all hand-coded)
-- Google Fonts for the style
-- JavaScript for the interactive popup
-- GitHub Pages to host everything
+### 🌐 Portfolio Website  
+Fully custom-coded site that shows off who I am and what I do — built with just HTML, CSS, and a little JavaScript. Includes a popup interaction, 3D image cube, and links to everything else.  
+[View Live](https://valkyrieae.github.io/School-Portfolio) | [View Source](./)
 
-## Why I Made This
-I wanted a portfolio that reflected *me* — simple, to the point, and a place I could keep building on as I grow in this field. Also, it gave me a chance to practice and show that I know how to build something from the ground up.
+---
 
-## What I Might Add Later
-- Make it responsive (mobile-friendly)
-- Add animations or dark mode toggle
-- Expand the Projects page with GitHub repos
-- Add a contact form or about section
+### 👶 Python Baby Name Generator  
+Group project from my Python logic class — lets you randomly generate baby names and (soon) compare popularity on a chart. Uses real Social Security name data, tuples, loops, and input validation.  
+[View Code](./baby_name_gen) | Full README in progress
 
-Thanks for checking it out!
+---
+
+### 🔼 Classical Image Cube (HTML/CSS)  
+An animated cube of classical sketches from my Java + web design class. Uses CSS 3D transforms, filters, and custom styling for a soft art-style vibe.  
+[View Demo](#) | [Sample CSS](#)
+
+---
+
+## 🛠️ Tech I’ve Used
+
+- HTML + CSS (hand-coded, no frameworks)
+- Python (Tuples, Random, Input Validation)
+- Java (for logic and structure)
+- GitHub Pages (for hosting)
+- Google Fonts + UI details
+- JavaScript (popup and interaction)
+
+---
+
+## 💡 Why This Exists
+
+I didn’t want a portfolio that looked like everyone else’s — I wanted one that actually showed what I’ve done and how I’m growing. This repo is part reference, part sandbox, and totally mine. I’ve learned a lot through these builds (especially the hard way), and I wanted a space to keep track of that.
+
+---
+
+## 📌 What’s Coming Next
+
+- More projects as I finish out my cybersecurity degree
+- Better responsive styling (mobile-friendly)
+- Charts + visuals for the baby name generator
+- Python practice: log parsers, scripts, and maybe a weather project 👀
