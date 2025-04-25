@@ -24,6 +24,14 @@ An animated cube of classical sketches from my Java + web design class. Uses CSS
 
 ---
 
+### 🧑‍💻 Cisco Switch Interface Lab (Packet Tracer)
+Assignment from my networking class where I configured switches, trunk links, and VLANs using Cisco Packet Tracer. It helped reinforce how devices connect and communicate — and how to troubleshoot when they don’t.  
+[View Lab Files](./Lab2SelfMade.pka.pkt) | [Read More Below](#cisco-packet-tracer-lab-switch-interface-configuration)
+
+---
+
+
+
 ## 🛠️ Tech I’ve Used
 
 - HTML + CSS (hand-coded, no frameworks)
