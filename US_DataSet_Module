@@ -1,0 +1,15 @@
+# US_dataset.py
+# baby name data – top 500 compressed into a small dataset for testing
+
+data_us = [
+    ("Liam", 19659, "Olivia", 17921),
+    ("Noah", 18252, "Emma", 15231),
+    ("Oliver", 15500, "Charlotte", 14921),
+    ("Elijah", 14321, "Amelia", 13872),
+    ("James", 13564, "Sophia", 13457),
+    ("William", 13010, "Isabella", 12509),
+    ("Benjamin", 12456, "Mia", 12089),
+    ("Lucas", 11845, "Evelyn", 11402),
+    ("Henry", 11123, "Harper", 11008),
+    ("Theodore", 10778, "Luna", 10672)
+]
