@@ -1,4 +1,4 @@
-# Kyrie Logins – School + Portfolio Projects
+# Kyrie L – School + Portfolio Projects
 
 Hey there! This repo holds everything from my personal portfolio site to the projects I’ve done in Python, Java, HTML/CSS, and more. It’s where I keep the work I’ve built from scratch (no templates here), and where I can track my growth while learning new tools and trying new things.
 
