@@ -11,16 +11,34 @@ Fully custom-coded site that shows off who I am and what I do — built with jus
 [View Live](https://valkyrieae.github.io/School-Portfolio) | [View Source](./)
 
 ---
+🕵️‍♀️ Digital Forensics Capstone Project
+My final capstone for my Digital Forensics course involved a real-world simulation of evidence handling, forensic imaging, and analysis.
+Key highlights:
+
+Performed write-protect testing on evidence using a WiebeTech Forensic UltraDock to ensure data integrity.
+
+Captured MD5 and SHA-256 hashes before and after imaging to verify no data alteration (crucial for court admissibility).
+
+Investigated evidence drives using Autopsy (Windows VM) and Linux Ubuntu VM tools.
+
+Analyzed Telnet/FTP logins, recovered deleted files, and uncovered hidden "Rhino" images related to the case scenario.
+
+Used stegseek and stegdetect for steganography detection and password-cracking attempts on hidden image files. 
+---
+**Tools Used:**  
+- [Autopsy](https://github.com/sleuthkit/autopsy) (forensic imaging and analysis)
+- [StegSeek](https://github.com/RickdeJager/stegseek) (steg cracking)
+- [StegDetect](https://github.com/b3dk7/Stegdetect) (steg detection)
+- [StegCracker](https://github.com/Paradoxis/StegCracker) (automated password attacks)
+- Bash scripting (automations)
+---
+Wrote Bash scripts to automate parts of the forensic investigation (e.g., running stegseek, stegdetect).
+This project strengthened my technical lab skills, case documentation, and my understanding of maintaining chain of custody in digital investigations.
+---
 
 ### 👶 Python Baby Name Generator  
 Group project from my Python logic class — lets you randomly generate baby names and (soon) compare popularity on a chart. Uses real Social Security name data, tuples, loops, and input validation.  
 [View Code](./baby_name_gen) | Full README in progress
-
----
-
-### 🔼 Classical Image Cube (HTML/CSS)  
-An animated cube of classical sketches from my Java + web design class. Uses CSS 3D transforms, filters, and custom styling for a soft art-style vibe.  
-[View Demo](#) | [Sample CSS](#)
 
 ---
 
