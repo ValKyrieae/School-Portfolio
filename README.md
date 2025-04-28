@@ -12,15 +12,12 @@ Fully custom-coded site that shows off who I am and what I do — built with jus
 
 ---
 🕵️‍♀️ Digital Forensics Capstone Project
-My final capstone for my Digital Forensics course involved a real-world simulation of evidence handling, forensic imaging, and analysis.
+I was involved in a real-world simulation of evidence handling, forensic imaging, and analysis for my final capstone project for my Digital Forensics course.
+
 Key highlights:
-
 Performed write-protect testing on evidence using a WiebeTech Forensic UltraDock to ensure data integrity.
-
 Captured MD5 and SHA-256 hashes before and after imaging to verify no data alteration (crucial for court admissibility).
-
 Investigated evidence drives using Autopsy (Windows VM) and Linux Ubuntu VM tools.
-
 Analyzed Telnet/FTP logins, recovered deleted files, and uncovered hidden "Rhino" images related to the case scenario.
 
 Used stegseek and stegdetect for steganography detection and password-cracking attempts on hidden image files. 
@@ -30,10 +27,7 @@ Used stegseek and stegdetect for steganography detection and password-cracking a
 - [StegSeek](https://github.com/RickdeJager/stegseek) (steg cracking)
 - [StegDetect](https://github.com/b3dk7/Stegdetect) (steg detection)
 - [StegCracker](https://github.com/Paradoxis/StegCracker) (automated password attacks)
-- Bash scripting (automations)
----
-Wrote Bash scripts to automate parts of the forensic investigation (e.g., running stegseek, stegdetect).
-This project strengthened my technical lab skills, case documentation, and my understanding of maintaining chain of custody in digital investigations.
+- Bash scripting (automations) - used to run StegSeek, StegDetect, and StegCracker
 ---
 
 ### 👶 Python Baby Name Generator  
@@ -44,38 +38,6 @@ Group project from my Python logic class — lets you randomly generate baby nam
 
 ### 🧑‍💻 Cisco Switch Interface Lab (Packet Tracer)  
 Assignment from my networking class where I configured switches, trunk links, and VLANs using Cisco Packet Tracer. It helped reinforce how devices connect and communicate — and how to troubleshoot when they don’t.  
-[View Lab File](./Lab2SelfMade.pka.pkt) | [Read More Below](#-cisco-packet-tracer-lab--switch-interface-configuration)
-
----
-
-## 🛠️ Tech I’ve Used
-
-- HTML + CSS (hand-coded, no frameworks)
-- Python (Tuples, Random, Input Validation)
-- Java (for logic and structure)
-- GitHub Pages (for hosting)
-- Google Fonts + UI details
-- JavaScript (popup and interaction)
-- Cisco Packet Tracer (network simulation)
-- Networking concepts: VLANs, trunking, IP config
-
----
-
-## 💡 Why This Exists
-
-I didn’t want a portfolio that looked like everyone else’s — I wanted one that actually showed what I’ve done and how I’m growing. This repo is part reference, part sandbox, and totally mine. I’ve learned a lot through these builds (especially the hard way), and I wanted a space to keep track of that.
-
----
-
-## 📌 What’s Coming Next
-
-- More projects as I finish out my cybersecurity degree
-- Better responsive styling (mobile-friendly)
-- Charts + visuals for the baby name generator
-- Python practice: log parsers, scripts, and maybe a weather project 👀
-
----
-
 ## 🔌 Cisco Packet Tracer Lab – Switch Interface Configuration
 
 This was an assignment for my networking class where we used Cisco Packet Tracer to manually configure switch interfaces. The goal was to get more hands-on experience with how switches work, how to assign IPs, and how VLANs and trunking actually function in a real network.
@@ -99,6 +61,26 @@ This was an assignment for my networking class where we used Cisco Packet Tracer
 - That trunking doesn’t just magically happen — you actually have to tell the switch what you want
 - How to troubleshoot connection issues using port LEDs and `show` commands
 
-### 🖼️ Screenshot
+[View Lab File](./Lab2SelfMade.pka.pkt) | [Read More Below](#-cisco-packet-tracer-lab--switch-interface-configuration)
 
-![Lab Screenshot](./4f659262-1fd8-4e7e-9d2
+---
+
+## 🛠️ Tech I’ve Used
+
+- HTML + CSS (hand-coded)
+- Python (Tuples, Random, Input Validation)
+- Java (for logic and structure)
+- GitHub Pages (for hosting)
+- Google Fonts + UI details
+- JavaScript (popup and interaction)
+- Cisco Packet Tracer (network simulation)
+- Networking concepts: VLANs, trunking, IP config
+
+---
+
+##  What’s Coming Next
+
+- More projects as I finish out my cybersecurity degree
+- Better responsive styling (mobile-friendly)
+- Charts + visuals for the baby name generator
+- Python practice: log parsers, scripts, and maybe a weather project 👀
