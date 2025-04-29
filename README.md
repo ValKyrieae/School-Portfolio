@@ -8,9 +8,9 @@ Hi! This repo has my school projects and personal portfolio work. It's where I'm
 
 ### Portfolio Website
 - Built with HTML, CSS, and JavaScript
-- Includes a popup interaction, a 3D rotating image cube, and links to my work
+- Includes a popup interaction, a marquee rotating image gallery, and links to my work
 - Hosted using GitHub Pages
-[View Live](https://valkyrieae.github.io/School-Portfolio)
+[View Live]((https://valkyrieae.github.io/portfolio/))
 
 ---
 
